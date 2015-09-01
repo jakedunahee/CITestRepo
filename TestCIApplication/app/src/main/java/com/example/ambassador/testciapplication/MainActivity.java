@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         System.out.println("Successfully created");
         System.out.println("Another change");
+        System.out.println("Change 3");
     }
 
     @Override
