@@ -10,4 +10,11 @@ public class ApplicationTest extends ApplicationTestCase<Application> {
     public ApplicationTest() {
         super(Application.class);
     }
+
+    public void testAddition() {
+        int i = 2;
+        i += 2;
+
+        assertEquals(4, i);
+    }
 }
