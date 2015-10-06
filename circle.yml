@@ -1,3 +1,3 @@
 test:
   override:
-    - ./TestCIApplication/gradlew assembleDebug
+    - ./TestCIApplication/gradle assembleDebug
