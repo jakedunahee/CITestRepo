@@ -1,6 +1,3 @@
-general:
-  build_dir: api
-
-  test:
-  override:
-    - ./gradlew assembleDebug
+test:
+override:
+- ./gradlew assembleDebug
